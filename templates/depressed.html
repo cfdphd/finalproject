@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Want to be Happy
+{% endblock %}
+
+{% block main %}
+    <form action="/depressed" method="post">
+        <fieldset>
+                <b>What is your First Name?</b>
+                    <div class="form-group">
+                    <input autocomplete="off" autofocus class="form-control" name="name" placeholder="First Name" type="text">
+                    </div>
+                </form>
+            </div>
+        </fieldset>
+    </form>
+{% endblock %}
